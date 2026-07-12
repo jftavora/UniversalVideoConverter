@@ -1,0 +1,6 @@
+Your application is now a fully capable, highly responsive multimedia tool:
+It reads movie files of various containers.
+It safely maps and injects external text-track layers.
+It transcodes the audio profile to high-fidelity Apple AAC.
+It optimizes the file layout pointers (+faststart) for instant streaming playback.
+It wraps everything up behind a beautiful, rhythmic vertical audio visualizer.
