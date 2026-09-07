@@ -1,0 +1,7 @@
+SWIFT_OBJC_BRIDGING_HEADER = Universal Video Converter/Universal-Video-Converter-Bridging-Header.h
+
+HEADER_SEARCH_PATHS = $(inherited) "/Users/jftavora/Documents/XCode/Libraries/ffmpeg-source/build-mac-arm64/include"
+
+LIBRARY_SEARCH_PATHS = $(inherited) "/Users/jftavora/Documents/XCode/Libraries/ffmpeg-source/build-mac-arm64/lib"
+
+OTHER_LDFLAGS = $(inherited) -liconv

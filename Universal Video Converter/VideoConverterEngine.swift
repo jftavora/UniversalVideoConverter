@@ -59,36 +59,34 @@ class VideoConverterEngine {
         }
         
         // Map streams and copy codecs
-        args.append(contentsOf: [
-            "-c:v", "copy", // Copy video stream directly
-            "-c:a", "aac",  // Transcode audio track to native Apple AAC
-            "-b:a", "192k"
-        ])
-        
-        if subtitleURL != nil {
+                args.append(contentsOf: [
+                    "-c:v", "copy", // Copy video stream directly
+                    "-c:a", "aac",  // Transcode audio track to native Apple AAC
+                    "-b:a", "192k"
+                ])
+                
+                // Remove the hardcoded -tag:v hvc1 line that broke H.264 streams.
+                // Faststart alone handles index placement and compatibility for both H.264 and H.265!
+                if outputExtension.lowercased() == "mp4" || outputExtension.lowercased() == "mov" {
+                    args.append(contentsOf: ["-movflags", "+faststart"])
+                }
+                
+                if subtitleURL != nil {
                     if outputExtension.lowercased() == "mkv" {
-                        // MKV natively handles raw SRT subtitles flawlessly with zero translation drops
                         args.append(contentsOf: [
                             "-c:s", "srt",
                             "-metadata:s:s:0", "language=eng"
                         ])
                     } else {
-                        // MP4 / MOV: Inject strict text formatting configuration
                         args.append(contentsOf: [
                             "-c:s", "mov_text",
-                            // FORCE TEXT WRAPPING BOUNDS: This flag strips bad invisible carriage returns
-                            // and forces Apple players to cleanly resize multi-line subtitle blocks.
-                            "-movflags", "+faststart+disable_chpl"
+                            "-metadata:s:s:0", "language=eng"
                         ])
-                        
-                        // Optional: Map metadata language parameters safely
-                        args.append(contentsOf: ["-metadata:s:s:0", "language=eng"])
                     }
                 }
-        
-        args.append(contentsOf: ["-movflags", "+faststart", outputPath])
-        process.arguments = args
-        // ------------------------
+                
+                args.append(outputPath)
+                process.arguments = args
         
         do {
             try process.run()

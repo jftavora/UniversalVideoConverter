@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal Video Converter-primary.dia",
+    "emit-module-dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal Video Converter-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal Video Converter-primary-emit-module.dia",
+    "pch" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal Video Converter-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal Video Converter-primary.swiftdeps"
+  },
+  "/Users/jftavora/Documents/XCode/Universal Video Converter/Universal Video Converter/ContentView.swift" : {
+    "const-values" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/jftavora/Documents/XCode/Universal Video Converter/Universal Video Converter/Universal_Video_ConverterApp.swift" : {
+    "const-values" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal_Video_ConverterApp.swiftconstvalues",
+    "dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal_Video_ConverterApp.d",
+    "diagnostics" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal_Video_ConverterApp.dia",
+    "index-unit-output-path" : "/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal_Video_ConverterApp.o",
+    "llvm-bc" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal_Video_ConverterApp.bc",
+    "object" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal_Video_ConverterApp.o",
+    "swift-dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal_Video_ConverterApp.swiftdeps",
+    "swiftmodule" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/Universal_Video_ConverterApp~partial.swiftmodule"
+  },
+  "/Users/jftavora/Documents/XCode/Universal Video Converter/Universal Video Converter/VideoConverterEngine.swift" : {
+    "const-values" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/VideoConverterEngine.swiftconstvalues",
+    "dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/VideoConverterEngine.d",
+    "diagnostics" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/VideoConverterEngine.dia",
+    "index-unit-output-path" : "/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/VideoConverterEngine.o",
+    "llvm-bc" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/VideoConverterEngine.bc",
+    "object" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/VideoConverterEngine.o",
+    "swift-dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/VideoConverterEngine.swiftdeps",
+    "swiftmodule" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/VideoConverterEngine~partial.swiftmodule"
+  },
+  "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/jftavora/Documents/XCode/Universal Video Converter/build/Universal Video Converter.build/Debug/Universal Video Converter.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
